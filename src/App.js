@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import SimpleCard from './Card';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'; // add
+import MuiThemeProvider from 'material-ui/core/styles/MuiThemeProvider'; // add
 import { getJson } from './Api';
 
 class App extends Component {
